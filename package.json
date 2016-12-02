@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "bxslider": "^4.2.6",
+    "font-awesome": "^4.6.3",
+    "jquery": "^1.12.4",
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "fancybox": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-copy": "0.0.2",
+    "gulp-watch": "^4.3.10",
+    "jquery": "^1.12.4"
+  }
+}

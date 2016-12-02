@@ -1,0 +1,76 @@
+
+<div class="home-portfolio rp-section-gap">
+  <div class="container">
+    <div class="row">
+      <% (1..10).each_with_index do |portfolio,index|%>
+        <% if(index%3==0 && index!=0)%>
+          </div><div class="row">
+        <% end %>
+        <div class="col-md-4">
+          <div class="portfolio-section">
+            <div class="portfolio-image">
+              <ul class="portfolio-image-slider">
+                <% (1..10).each do |image| %>
+                  <li>
+                    <img class="img-responsive" src="images/0<%= (index%5)+1%>.jpg">
+                  </li>
+                <% end %>
+              </ul>
+            </div>
+            <div class="portfolio-text">
+              <h3>It is situated in the bay</h3>
+              <p><%=lorem.sentence %></p>
+            </div>
+          </div>
+        </div>
+      <% end %>
+      </div>
+      </div>
+</div>
+
+<!--gallery-->
+<!--
+<div class="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/1.jpg">
+
+      </div>
+
+
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/2.jpg">
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/3.jpg">
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/2.jpg">
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/3.jpg">
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/1.jpg">
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/2.jpg">
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/3.jpg">
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/1.jpg">
+      </div>
+
+    </div>
+  </div>
+</div>
+-->
